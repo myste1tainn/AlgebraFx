@@ -1,0 +1,6 @@
+framework module RxAlgebra {
+  umbrella header "RxAlgebra-umbrella.h"
+
+  export *
+  module * { export * }
+}
