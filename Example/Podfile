@@ -2,10 +2,13 @@ use_frameworks!
 
 target 'RxAlgebra_Example' do
   pod 'RxAlgebra/RxCocoa', :path => '../'
+  pod 'RxSwiftExpansion', :path => '../../RxSwiftExpansion'
+  pod 'SwiftExpansion', :path => '../../SwiftExpansion'
 
   target 'RxAlgebra_Tests' do
     inherit! :search_paths
 
-    pod 'Quick', '~> 1.2.0'
+    pod 'Quick', '~> 1.2'
+    pod 'Nimble', '~> 7.0'
   end
 end

@@ -4,6 +4,7 @@
 //
 
 import Foundation
+import RxSwiftExpansion
 import RxSwift
 import RxCocoa
 
@@ -18,10 +19,10 @@ func driver<T: ObservableType>(_ obs: T) -> (T.E) -> Driver<T.E> {
 }
 
 func driver<T: ObservableType>(_ obs: T) -> Driver<T.E> {
-  return obs.asDriverOnErrorJustComplete()
+  return obs.asDriverEmptyIfError()
 }
 
 func driver<T: ObservableType>(_ obs: T?) -> Driver<T.E>? {
-  return obs?.asDriverOnErrorJustComplete()
+  return obs?.asDriverEmptyIfError()
 }
 

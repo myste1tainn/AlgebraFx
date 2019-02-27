@@ -44,11 +44,15 @@ TODO: Add long description of the pod here.
   s.subspec 'RxSwift' do |ss|
     ss.source_files = 'RxAlgebra/RxSwift/**/*'
     ss.dependency 'RxSwift', '~> 4.2.0'
+    ss.dependency 'SwiftExpansion', '~> 0.1.0'
+    ss.dependency 'RxSwiftExpansion', '~> 0.1.0'
   end
 
   s.subspec 'RxCocoa' do |ss|
     ss.source_files = 'RxAlgebra/Core/**/*', 'RxAlgebra/RxSwift/**/*', 'RxAlgebra/RxCocoa/**/*'
     ss.dependency 'RxSwift', '~> 4.2.0'
     ss.dependency 'RxCocoa', '~> 4.2.0'
+    ss.dependency 'SwiftExpansion', '~> 0.1.0'
+    ss.dependency 'RxSwiftExpansion', '~> 0.1.0'
   end
 end

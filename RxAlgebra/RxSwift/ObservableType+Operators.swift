@@ -4,12 +4,14 @@
 //
 
 import Foundation
+import SwiftExpansion
+import RxSwiftExpansion
 import RxSwift
 import RxCocoa
 
 extension ObservableType where E: OptionalType {
   public static postfix func ~~!(this: Self) -> Observable<E.Wrapped> {
-    return this.ignoreNil()
+    return this.unwrap()
   }
 }
 

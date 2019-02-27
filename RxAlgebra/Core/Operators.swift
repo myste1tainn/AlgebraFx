@@ -49,7 +49,7 @@ infix operator <-->: AdditionPrecedence
 /// filter
 infix operator ~~~: AdditionPrecedence
 
-/// ignoreNil
+/// unwrap
 postfix operator ~~!
 
 /// distinctUntilChanged

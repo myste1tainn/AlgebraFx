@@ -4,12 +4,13 @@
 //
 
 import Foundation
+import SwiftExpansion
 import RxSwift
 import RxCocoa
 
 extension SharedSequenceConvertibleType where SharingStrategy == DriverSharingStrategy, E: OptionalType {
   public static postfix func ~~!(this: Self) -> Driver<E.Wrapped> {
-    return this.ignoreNil()
+    return this.unwrap()
   }
 }
 

@@ -4,8 +4,9 @@
 //
 
 import Foundation
+import SwiftExpansion
 import RxSwift
-import RxCocoa
+import RxSwiftExpansion
 
 public typealias ObservableFullBreakdownResult<T: ObservableType> = (Observable<T.E>, ActivityIndicator, ErrorTracker)
 public typealias ObservableActivityBreakdownResult<T: ObservableType> = (Observable<T.E>, ActivityIndicator)

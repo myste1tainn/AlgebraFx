@@ -4,7 +4,9 @@
 //
 
 import Foundation
+import SwiftExpansion
 import RxSwift
+import RxSwiftExpansion
 import RxCocoa
 
 public typealias DriverFullBreakdownResult<T: DriverType> = (Driver<T.E>, ActivityIndicator, ErrorTracker)
@@ -22,7 +24,7 @@ extension DriverType {
   public func breakdown() -> (Driver<E>, ActivityIndicator, ErrorTracker) {
     let activity = ActivityIndicator()
     let error = ErrorTracker()
-    let main = trackActivity(activity).trackError(error).asDriverOnErrorJustComplete()
+    let main = trackActivity(activity).trackError(error).asDriverEmptyIfError()
     return (main, activity, error)
   }
 }
@@ -30,18 +32,18 @@ extension DriverType {
 public func breakdown<T: DriverType>(_ obs: T) -> (Driver<T.E>, ActivityIndicator, ErrorTracker) {
   let activity = ActivityIndicator()
   let error = ErrorTracker()
-  let main = obs.trackActivity(activity).trackError(error).asDriverOnErrorJustComplete()
+  let main = obs.trackActivity(activity).trackError(error).asDriverEmptyIfError()
   return (main, activity, error)
 }
 
 public func breakdownActivity<T: DriverType>(_ obs: T) -> DriverActivityBreakdownResult<T> {
   let activity = ActivityIndicator()
-  let main = obs.trackActivity(activity).asDriverOnErrorJustComplete()
+  let main = obs.trackActivity(activity).asDriverEmptyIfError()
   return (main, activity)
 }
 
 public func breakdownError<T: DriverType>(_ obs: T) -> DriverErrorBreakdownResult<T> {
   let error = ErrorTracker()
-  let main = obs.trackError(error).asDriverOnErrorJustComplete()
+  let main = obs.trackError(error).asDriverEmptyIfError()
   return (main, error)
 }
