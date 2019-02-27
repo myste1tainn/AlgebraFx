@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'RxAlgebra/Classes/**/*'
+  s.source_files = 'RxAlgebra/Core/**/*'
   
   # s.resource_bundles = {
   #   'RxAlgebra' => ['RxAlgebra/Assets/*.png']
@@ -38,5 +38,17 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.default_subspecs = ['RxSwift']
+
+  s.subspec 'RxSwift' do |ss|
+    ss.source_files = 'RxAlgebra/RxSwift/**/*'
+    ss.dependency 'RxSwift', '~> 4.2.0'
+  end
+
+  s.subspec 'RxCocoa' do |ss|
+    ss.source_files = 'RxAlgebra/Core/**/*', 'RxAlgebra/RxSwift/**/*', 'RxAlgebra/RxCocoa/**/*'
+    ss.dependency 'RxSwift', '~> 4.2.0'
+    ss.dependency 'RxCocoa', '~> 4.2.0'
+  end
 end
