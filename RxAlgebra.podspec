@@ -32,6 +32,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'RxAlgebra/Core/**/*'
+  s.swift_version = '4.2'
   
   # s.resource_bundles = {
   #   'RxAlgebra' => ['RxAlgebra/Assets/*.png']
