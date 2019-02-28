@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RxAlgebra'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RxAlgebra.'
+  s.summary          = 'Algebraic expression support for Rx style programming'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Algebraic expression support for Rx style programming. In an attempt to make the code
+  more concise (1) and readable (2). This library provides operators enabling adopter to wield the power of Algebra.
                        DESC
 
   s.homepage         = 'https://github.com/myste1tainn/RxAlgebra'
