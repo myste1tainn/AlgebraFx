@@ -4,10 +4,10 @@
 //
 
 import Foundation
+import AlgebraFx
 import SwiftExpansion
 import RxSwiftExpansion
 import RxSwift
-import RxCocoa
 
 extension ObservableType where E: OptionalType {
   public static postfix func ~~!(this: Self) -> Observable<E.Wrapped> {
@@ -58,19 +58,6 @@ extension ObservableType {
   
   public static func +>>(left: Self, right: @escaping (E) -> Void) -> Observable<E> {
     return left.do(onNext: right)
-  }
-  
-  public static func |(left: Self, right: ActivityIndicator) -> Observable<E> {
-    return left.trackActivity(right)
-  }
-  
-  public static func |(left: Self, right: ErrorTracker) -> Observable<E> {
-    return left.trackError(right)
-  }
-  
-  public static func |(left: Self, right: (ActivityIndicator, ErrorTracker)) -> Observable<E> {
-    return left.trackActivity(right.0)
-               .trackError(right.1)
   }
   
   public static func |(left: Self, right: Int) -> Observable<E> {

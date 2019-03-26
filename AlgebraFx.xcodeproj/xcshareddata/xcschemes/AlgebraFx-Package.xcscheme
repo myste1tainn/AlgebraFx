@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AlgebraFx::AlgebraRxCocoa"
-               BuildableName = "AlgebraRxCocoa.framework"
-               BlueprintName = "AlgebraRxCocoa"
-               ReferencedContainer = "container:AlgebraFx.xcodeproj">
+               BuildableName = "AlgebraFx.framework"
+               BlueprintName = "AlgebraFx"
+               ReferencedContainer = "container:AlgebraFx.xcodeproj"
+               BlueprintIdentifier = "AlgebraFx::AlgebraFx">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,8 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AlgebraFx::AlgebraRxSwift"
-               BuildableName = "AlgebraRxSwift.framework"
+               BuildableName = "&apos;lib$(TARGET_NAME)&apos;"
                BlueprintName = "AlgebraRxSwift"
                ReferencedContainer = "container:AlgebraFx.xcodeproj">
             </BuildableReference>
@@ -42,9 +41,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AlgebraFx::AlgebraFx"
-               BuildableName = "AlgebraFx.framework"
-               BlueprintName = "AlgebraFx"
+               BuildableName = "&apos;lib$(TARGET_NAME)&apos;"
+               BlueprintName = "AlgebraRxCocoa"
                ReferencedContainer = "container:AlgebraFx.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -54,14 +52,14 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "NO">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AlgebraFx::AlgebraFxTests"
-               BuildableName = "AlgebraFxTests.xctest"
+               BuildableName = "&apos;$(TARGET_NAME)&apos;"
                BlueprintName = "AlgebraFxTests"
                ReferencedContainer = "container:AlgebraFx.xcodeproj">
             </BuildableReference>
@@ -70,8 +68,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AlgebraFx::AlgebraRxSwiftTests"
-               BuildableName = "AlgebraRxSwiftTests.xctest"
+               BuildableName = "&apos;$(TARGET_NAME)&apos;"
                BlueprintName = "AlgebraRxSwiftTests"
                ReferencedContainer = "container:AlgebraFx.xcodeproj">
             </BuildableReference>
@@ -80,50 +77,11 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AlgebraFx::AlgebraRxCocoaTests"
-               BuildableName = "AlgebraRxCocoaTests.xctest"
+               BuildableName = "&apos;$(TARGET_NAME)&apos;"
                BlueprintName = "AlgebraRxCocoaTests"
                ReferencedContainer = "container:AlgebraFx.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
-   <LaunchAction
-      buildConfiguration = "Debug"
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      launchStyle = "0"
-      useCustomWorkingDirectory = "NO"
-      ignoresPersistentStateOnLaunch = "NO"
-      debugDocumentVersioning = "YES"
-      debugServiceExtension = "internal"
-      allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AlgebraFx::AlgebraRxCocoa"
-            BuildableName = "AlgebraRxCocoa.framework"
-            BlueprintName = "AlgebraRxCocoa"
-            ReferencedContainer = "container:AlgebraFx.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
-   </LaunchAction>
-   <ProfileAction
-      buildConfiguration = "Release"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      savedToolIdentifier = ""
-      useCustomWorkingDirectory = "NO"
-      debugDocumentVersioning = "YES">
-   </ProfileAction>
-   <AnalyzeAction
-      buildConfiguration = "Debug">
-   </AnalyzeAction>
-   <ArchiveAction
-      buildConfiguration = "Release"
-      revealArchiveInOrganizer = "YES">
-   </ArchiveAction>
 </Scheme>
