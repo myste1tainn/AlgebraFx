@@ -9,6 +9,24 @@
           "revision": "fc6030ea9fe9b8af0351fe195b4095a9f2339757",
           "version": "4.4.2"
         }
+      },
+      {
+        "package": "RxSwiftExpansion",
+        "repositoryURL": "https://github.com/myste1tainn/RxSwiftExpansion.git",
+        "state": {
+          "branch": null,
+          "revision": "f53c59fde520cc43706e911a3b9a3552fcedd85c",
+          "version": "0.1.4"
+        }
+      },
+      {
+        "package": "SwiftExpansion",
+        "repositoryURL": "https://github.com/myste1tainn/SwiftExpansion.git",
+        "state": {
+          "branch": null,
+          "revision": "c64f85d9a6f98f541d742d8ebfee92a7bac568b3",
+          "version": "0.1.2"
+        }
       }
     ]
   },
