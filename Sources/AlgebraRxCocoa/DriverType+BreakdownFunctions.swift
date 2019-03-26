@@ -4,10 +4,12 @@
 //
 
 import Foundation
+import AlgebraFx
 import SwiftExpansion
 import RxSwift
-import RxSwiftExpansion
 import RxCocoa
+import RxSwiftExpansion
+import RxCocoaExpansion
 
 public typealias DriverFullBreakdownResult<T: DriverType> = (Driver<T.E>, ActivityIndicator, ErrorTracker)
 public typealias DriverActivityBreakdownResult<T: DriverType> = (Driver<T.E>, ActivityIndicator)
