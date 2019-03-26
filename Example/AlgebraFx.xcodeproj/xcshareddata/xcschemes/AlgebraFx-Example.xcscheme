@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "RxAlgebra_Example.app"
-               BlueprintName = "RxAlgebra_Example"
-               ReferencedContainer = "container:RxAlgebra.xcodeproj">
+               BuildableName = "AlgebraFx_Example.app"
+               BlueprintName = "AlgebraFx_Example"
+               ReferencedContainer = "container:AlgebraFx.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "RxAlgebra_Tests.xctest"
-               BlueprintName = "RxAlgebra_Tests"
-               ReferencedContainer = "container:RxAlgebra.xcodeproj">
+               BuildableName = "AlgebraFx_Tests.xctest"
+               BlueprintName = "AlgebraFx_Tests"
+               ReferencedContainer = "container:AlgebraFx.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,9 +48,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "RxAlgebra_Tests.xctest"
-               BlueprintName = "RxAlgebra_Tests"
-               ReferencedContainer = "container:RxAlgebra.xcodeproj">
+               BuildableName = "AlgebraFx_Tests.xctest"
+               BlueprintName = "AlgebraFx_Tests"
+               ReferencedContainer = "container:AlgebraFx.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -58,9 +58,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "RxAlgebra_Example.app"
-            BlueprintName = "RxAlgebra_Example"
-            ReferencedContainer = "container:RxAlgebra.xcodeproj">
+            BuildableName = "AlgebraFx_Example.app"
+            BlueprintName = "AlgebraFx_Example"
+            ReferencedContainer = "container:AlgebraFx.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "RxAlgebra_Example.app"
-            BlueprintName = "RxAlgebra_Example"
-            ReferencedContainer = "container:RxAlgebra.xcodeproj">
+            BuildableName = "AlgebraFx_Example.app"
+            BlueprintName = "AlgebraFx_Example"
+            ReferencedContainer = "container:AlgebraFx.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -101,9 +101,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "RxAlgebra_Example.app"
-            BlueprintName = "RxAlgebra_Example"
-            ReferencedContainer = "container:RxAlgebra.xcodeproj">
+            BuildableName = "AlgebraFx_Example.app"
+            BlueprintName = "AlgebraFx_Example"
+            ReferencedContainer = "container:AlgebraFx.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

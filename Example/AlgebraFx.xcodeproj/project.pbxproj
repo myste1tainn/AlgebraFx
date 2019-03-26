@@ -13,8 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		B6A56FE889B849DCF2B0EA1F /* Pods_RxAlgebra_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A14DFBB9D1E131255536D1 /* Pods_RxAlgebra_Tests.framework */; };
-		FD3A7DEE4E589F8B7B16952A /* Pods_RxAlgebra_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED51FB8FBBBC60C39A87E77C /* Pods_RxAlgebra_Example.framework */; };
+		B6A56FE889B849DCF2B0EA1F /* Pods_AlgebraFx_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A14DFBB9D1E131255536D1 /* Pods_AlgebraFx_Tests.framework */; };
+		FD3A7DEE4E589F8B7B16952A /* Pods_AlgebraFx_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED51FB8FBBBC60C39A87E77C /* Pods_AlgebraFx_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,30 +23,30 @@
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = RxAlgebra;
+			remoteInfo = AlgebraFx;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		20E284F0048D2256EC4862C8 /* Pods-RxAlgebra_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxAlgebra_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxAlgebra_Example/Pods-RxAlgebra_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		20E284F0048D2256EC4862C8 /* Pods-AlgebraFx_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgebraFx_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlgebraFx_Example/Pods-AlgebraFx_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2505397A6227C86C04F554B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		54FD4ABF0C9FC6BA0F46DADA /* Pods-RxAlgebra_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxAlgebra_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxAlgebra_Tests/Pods-RxAlgebra_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		57A14DFBB9D1E131255536D1 /* Pods_RxAlgebra_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxAlgebra_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD01AFB9204008FA782 /* RxAlgebra_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxAlgebra_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54FD4ABF0C9FC6BA0F46DADA /* Pods-AlgebraFx_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgebraFx_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgebraFx_Tests/Pods-AlgebraFx_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		57A14DFBB9D1E131255536D1 /* Pods_AlgebraFx_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgebraFx_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD01AFB9204008FA782 /* AlgebraFx_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgebraFx_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* RxAlgebra_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxAlgebra_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* AlgebraFx_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgebraFx_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		BE3FA3CA41DB88095391B559 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CC732AF8F0585C4F16C05D94 /* RxAlgebra.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RxAlgebra.podspec; path = ../RxAlgebra.podspec; sourceTree = "<group>"; };
-		D36C2625DE96E01240C867EF /* Pods-RxAlgebra_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxAlgebra_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxAlgebra_Example/Pods-RxAlgebra_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D7327C7D338928512165D3B0 /* Pods-RxAlgebra_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxAlgebra_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxAlgebra_Tests/Pods-RxAlgebra_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		ED51FB8FBBBC60C39A87E77C /* Pods_RxAlgebra_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxAlgebra_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC732AF8F0585C4F16C05D94 /* AlgebraFx.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AlgebraFx.podspec; path = ../AlgebraFx.podspec; sourceTree = "<group>"; };
+		D36C2625DE96E01240C867EF /* Pods-AlgebraFx_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgebraFx_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgebraFx_Example/Pods-AlgebraFx_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D7327C7D338928512165D3B0 /* Pods-AlgebraFx_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgebraFx_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlgebraFx_Tests/Pods-AlgebraFx_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED51FB8FBBBC60C39A87E77C /* Pods_AlgebraFx_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgebraFx_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD3A7DEE4E589F8B7B16952A /* Pods_RxAlgebra_Example.framework in Frameworks */,
+				FD3A7DEE4E589F8B7B16952A /* Pods_AlgebraFx_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6A56FE889B849DCF2B0EA1F /* Pods_RxAlgebra_Tests.framework in Frameworks */,
+				B6A56FE889B849DCF2B0EA1F /* Pods_AlgebraFx_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +72,8 @@
 		04B412F481D5C4E4E693E6A6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ED51FB8FBBBC60C39A87E77C /* Pods_RxAlgebra_Example.framework */,
-				57A14DFBB9D1E131255536D1 /* Pods_RxAlgebra_Tests.framework */,
+				ED51FB8FBBBC60C39A87E77C /* Pods_AlgebraFx_Example.framework */,
+				57A14DFBB9D1E131255536D1 /* Pods_AlgebraFx_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -81,10 +81,10 @@
 		38D94D4A7D364F17919F6B22 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				20E284F0048D2256EC4862C8 /* Pods-RxAlgebra_Example.debug.xcconfig */,
-				D36C2625DE96E01240C867EF /* Pods-RxAlgebra_Example.release.xcconfig */,
-				D7327C7D338928512165D3B0 /* Pods-RxAlgebra_Tests.debug.xcconfig */,
-				54FD4ABF0C9FC6BA0F46DADA /* Pods-RxAlgebra_Tests.release.xcconfig */,
+				20E284F0048D2256EC4862C8 /* Pods-AlgebraFx_Example.debug.xcconfig */,
+				D36C2625DE96E01240C867EF /* Pods-AlgebraFx_Example.release.xcconfig */,
+				D7327C7D338928512165D3B0 /* Pods-AlgebraFx_Tests.debug.xcconfig */,
+				54FD4ABF0C9FC6BA0F46DADA /* Pods-AlgebraFx_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -93,7 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for RxAlgebra */,
+				607FACD21AFB9204008FA782 /* Example for AlgebraFx */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				38D94D4A7D364F17919F6B22 /* Pods */,
@@ -104,13 +104,13 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* RxAlgebra_Example.app */,
-				607FACE51AFB9204008FA782 /* RxAlgebra_Tests.xctest */,
+				607FACD01AFB9204008FA782 /* AlgebraFx_Example.app */,
+				607FACE51AFB9204008FA782 /* AlgebraFx_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for RxAlgebra */ = {
+		607FACD21AFB9204008FA782 /* Example for AlgebraFx */ = {
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
@@ -120,8 +120,8 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			name = "Example for RxAlgebra";
-			path = RxAlgebra;
+			name = "Example for AlgebraFx";
+			path = AlgebraFx;
 			sourceTree = "<group>";
 		};
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
@@ -152,7 +152,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				CC732AF8F0585C4F16C05D94 /* RxAlgebra.podspec */,
+				CC732AF8F0585C4F16C05D94 /* AlgebraFx.podspec */,
 				BE3FA3CA41DB88095391B559 /* README.md */,
 				2505397A6227C86C04F554B6 /* LICENSE */,
 			);
@@ -162,9 +162,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* RxAlgebra_Example */ = {
+		607FACCF1AFB9204008FA782 /* AlgebraFx_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "RxAlgebra_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "AlgebraFx_Example" */;
 			buildPhases = (
 				90F4533F8952752C30BFD1F7 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -176,14 +176,14 @@
 			);
 			dependencies = (
 			);
-			name = RxAlgebra_Example;
-			productName = RxAlgebra;
-			productReference = 607FACD01AFB9204008FA782 /* RxAlgebra_Example.app */;
+			name = AlgebraFx_Example;
+			productName = AlgebraFx;
+			productReference = 607FACD01AFB9204008FA782 /* AlgebraFx_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* RxAlgebra_Tests */ = {
+		607FACE41AFB9204008FA782 /* AlgebraFx_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "RxAlgebra_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "AlgebraFx_Tests" */;
 			buildPhases = (
 				D8C28E5DF93FE0A30578014F /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
@@ -196,9 +196,9 @@
 			dependencies = (
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = RxAlgebra_Tests;
+			name = AlgebraFx_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* RxAlgebra_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* AlgebraFx_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -222,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "RxAlgebra" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "AlgebraFx" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -235,8 +235,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* RxAlgebra_Example */,
-				607FACE41AFB9204008FA782 /* RxAlgebra_Tests */,
+				607FACCF1AFB9204008FA782 /* AlgebraFx_Example */,
+				607FACE41AFB9204008FA782 /* AlgebraFx_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -270,8 +270,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RxAlgebra_Example/Pods-RxAlgebra_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RxAlgebra/RxAlgebra.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-AlgebraFx_Example/Pods-AlgebraFx_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwiftExpansion/RxSwiftExpansion.framework",
@@ -281,7 +280,6 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlgebra.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwiftExpansion.framework",
@@ -289,7 +287,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxAlgebra_Example/Pods-RxAlgebra_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlgebraFx_Example/Pods-AlgebraFx_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		90F4533F8952752C30BFD1F7 /* [CP] Check Pods Manifest.lock */ = {
@@ -307,7 +305,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RxAlgebra_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AlgebraFx_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -322,7 +320,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RxAlgebra_Tests/Pods-RxAlgebra_Tests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-AlgebraFx_Tests/Pods-AlgebraFx_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
@@ -335,7 +333,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxAlgebra_Tests/Pods-RxAlgebra_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlgebraFx_Tests/Pods-AlgebraFx_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D8C28E5DF93FE0A30578014F /* [CP] Check Pods Manifest.lock */ = {
@@ -353,7 +351,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RxAlgebra_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AlgebraFx_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -385,7 +383,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* RxAlgebra_Example */;
+			target = 607FACCF1AFB9204008FA782 /* AlgebraFx_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -511,10 +509,10 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20E284F0048D2256EC4862C8 /* Pods-RxAlgebra_Example.debug.xcconfig */;
+			baseConfigurationReference = 20E284F0048D2256EC4862C8 /* Pods-AlgebraFx_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = RxAlgebra/Info.plist;
+				INFOPLIST_FILE = AlgebraFx/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -526,10 +524,10 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D36C2625DE96E01240C867EF /* Pods-RxAlgebra_Example.release.xcconfig */;
+			baseConfigurationReference = D36C2625DE96E01240C867EF /* Pods-AlgebraFx_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = RxAlgebra/Info.plist;
+				INFOPLIST_FILE = AlgebraFx/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -541,7 +539,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7327C7D338928512165D3B0 /* Pods-RxAlgebra_Tests.debug.xcconfig */;
+			baseConfigurationReference = D7327C7D338928512165D3B0 /* Pods-AlgebraFx_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -557,13 +555,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxAlgebra_Example.app/RxAlgebra_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlgebraFx_Example.app/AlgebraFx_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54FD4ABF0C9FC6BA0F46DADA /* Pods-RxAlgebra_Tests.release.xcconfig */;
+			baseConfigurationReference = 54FD4ABF0C9FC6BA0F46DADA /* Pods-AlgebraFx_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -575,14 +573,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxAlgebra_Example.app/RxAlgebra_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlgebraFx_Example.app/AlgebraFx_Example";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "RxAlgebra" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "AlgebraFx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -591,7 +589,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "RxAlgebra_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "AlgebraFx_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
@@ -600,7 +598,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "RxAlgebra_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "AlgebraFx_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,

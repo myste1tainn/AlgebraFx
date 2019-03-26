@@ -2,7 +2,7 @@
 
 import Quick
 import Nimble
-import RxAlgebra
+import AlgebraFx
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {

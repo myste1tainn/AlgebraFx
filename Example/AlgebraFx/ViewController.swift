@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  RxAlgebra
+//  AlgebraFx
 //
 //  Created by myste1tainn on 02/26/2019.
 //  Copyright (c) 2019 myste1tainn. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import RxSwift
 import RxCocoa
-import RxAlgebra
+import AlgebraFx
 
 class ViewController: UIViewController {
   

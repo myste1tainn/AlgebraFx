@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  RxAlgebra
+//  AlgebraFx
 //
 //  Created by myste1tainn on 02/26/2019.
 //  Copyright (c) 2019 myste1tainn. All rights reserved.
