@@ -44,11 +44,11 @@ extension SharedSequenceConvertibleType where SharingStrategy == DriverSharingSt
     return left.flatMapFirst { right($0) }
   }
   
-  public static func --><R>(left: Self, right: @escaping (E) -> R) -> Driver<R> {
+  public static func >>><R>(left: Self, right: @escaping (E) -> R) -> Driver<R> {
     return left.map { l -> R in right(l) }
   }
   
-  public static func -->(left: Self, right: Void) -> Driver<Void> {
+  public static func >>>(left: Self, right: Void) -> Driver<Void> {
     return left.map { _ in }
   }
   
@@ -97,11 +97,11 @@ extension SharedSequenceConvertibleType where SharingStrategy == DriverSharingSt
   }
   
   public static func ===<R: DriverType>(left: Self, right: R) -> Driver<Bool> where R.E == E, R.E: Equatable {
-    return left +++ right --> { $0.0 == $0.1 }
+    return left +++ right >>> { $0.0 == $0.1 }
   }
   
   public static func &&&<R: DriverType>(left: Self, right: R) -> Driver<Bool> where R.E == E, R.E == Bool {
-    return left +++ right --> { $0.0 && $0.1 }
+    return left +++ right >>> { $0.0 && $0.1 }
   }
   
   public static func --/(left: Self, right: RxTimeInterval) -> Driver<E> {

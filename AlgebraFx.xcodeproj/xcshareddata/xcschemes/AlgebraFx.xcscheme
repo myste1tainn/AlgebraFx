@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "9999"
-   version = "1.3">
+   version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AlgebraFx::AlgebraRxCocoa"
-               BuildableName = "AlgebraRxCocoa.framework"
-               BlueprintName = "AlgebraRxCocoa"
-               ReferencedContainer = "container:AlgebraFx.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AlgebraFx::AlgebraRxSwift"
-               BuildableName = "AlgebraRxSwift.framework"
-               BlueprintName = "AlgebraRxSwift"
+               BlueprintIdentifier = "AlgebraFx::AlgebraFx"
+               BuildableName = "AlgebraFx.framework"
+               BlueprintName = "AlgebraFx"
                ReferencedContainer = "container:AlgebraFx.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -48,6 +34,20 @@
                ReferencedContainer = "container:AlgebraFx.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AlgebraFx::AlgebraRxCocoa"
+               BuildableName = "AlgebraRxCocoa.framework"
+               BlueprintName = "AlgebraRxCocoa"
+               ReferencedContainer = "container:AlgebraFx.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -60,9 +60,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AlgebraFx::AlgebraFxTests"
-               BuildableName = "AlgebraFxTests.xctest"
-               BlueprintName = "AlgebraFxTests"
+               BlueprintIdentifier = "AlgebraFx::AlgebraRxSwiftTests"
+               BuildableName = "AlgebraRxSwiftTests.xctest"
+               BlueprintName = "AlgebraRxSwiftTests"
                ReferencedContainer = "container:AlgebraFx.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -70,9 +70,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AlgebraFx::AlgebraRxSwiftTests"
-               BuildableName = "AlgebraRxSwiftTests.xctest"
-               BlueprintName = "AlgebraRxSwiftTests"
+               BlueprintIdentifier = "AlgebraFx::AlgebraFxTests"
+               BuildableName = "AlgebraFxTests.xctest"
+               BlueprintName = "AlgebraFxTests"
                ReferencedContainer = "container:AlgebraFx.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -103,14 +103,18 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AlgebraFx::AlgebraRxCocoa"
-            BuildableName = "AlgebraRxCocoa.framework"
-            BlueprintName = "AlgebraRxCocoa"
+            BlueprintIdentifier = "AlgebraFx::AlgebraFx"
+            BuildableName = "AlgebraFx.framework"
+            BlueprintName = "AlgebraFx"
             ReferencedContainer = "container:AlgebraFx.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
+      <LocationScenarioReference
+         identifier = "com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier"
+         referenceType = "1">
+      </LocationScenarioReference>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

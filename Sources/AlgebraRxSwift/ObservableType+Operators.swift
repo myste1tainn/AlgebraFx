@@ -44,15 +44,15 @@ extension ObservableType {
     return left.flatMapFirst { right($0) }
   }
   
-  public static func -->(left: Self, right: Void) -> Observable<Void> {
+  public static func >>>(left: Self, right: Void) -> Observable<Void> {
     return left.map { _ in }
   }
   
-  public static func --><R>(left: Self, right: R) -> Observable<R> {
+  public static func >>><R>(left: Self, right: R) -> Observable<R> {
     return left.map { _ in right }
   }
   
-  public static func --><R>(left: Self, right: @escaping (E) -> R) -> Observable<R> {
+  public static func >>><R>(left: Self, right: @escaping (E) -> R) -> Observable<R> {
     return left.map { l -> R in right(l) }
   }
   
@@ -118,11 +118,11 @@ extension ObservableType {
   }
   
   public static func ===<R: ObservableType>(left: Self, right: R) -> Observable<Bool> where R.E == E, R.E: Equatable {
-    return left +++ right --> { $0.0 == $0.1 }
+    return left +++ right >>> { $0.0 == $0.1 }
   }
   
   public static func &&&<R: ObservableType>(left: Self, right: R) -> Observable<Bool> where R.E == E, R.E == Bool {
-    return left +++ right --> { $0.0 && $0.1 }
+    return left +++ right >>> { $0.0 && $0.1 }
   }
   
   public static func --/(left: Self, right: RxTimeInterval) -> Observable<E> {

@@ -11,7 +11,7 @@ import Foundation
 // MARK: - Transform operators
 
 /// map
-infix operator -->: AdditionPrecedence
+infix operator >>>: AdditionPrecedence
 
 /// flatMap
 infix operator >->: AdditionPrecedence
