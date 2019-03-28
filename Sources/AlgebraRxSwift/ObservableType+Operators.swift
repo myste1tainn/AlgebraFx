@@ -68,15 +68,15 @@ extension ObservableType {
     return left.filter(right)
   }
   
-  public static func --->(left: Self, right: Void) -> Disposable {
+  public static func -->(left: Self, right: Void) -> Disposable {
     return left.subscribe()
   }
   
-  public static func --->(left: Self, right: @escaping (E) -> Void) -> Disposable {
+  public static func -->(left: Self, right: @escaping (E) -> Void) -> Disposable {
     return left.subscribe(onNext: { right($0) })
   }
   
-  public static func ---><R>(left: Self, right: R) -> Disposable where E == R.E, R: ObserverType {
+  public static func --><R>(left: Self, right: R) -> Disposable where E == R.E, R: ObserverType {
     return left.subscribe(right)
   }
   

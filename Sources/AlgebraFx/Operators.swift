@@ -39,10 +39,10 @@ infix operator |: AdditionPrecedence
 // MARK: - Binding
 
 /// Subscribe, one-way binding
-infix operator --->: AdditionPrecedence
+infix operator -->: AdditionPrecedence
 
 /// Two-way binding
-infix operator <-->: AdditionPrecedence
+infix operator <->: AdditionPrecedence
 
 // MARK: - Filtration
 
@@ -66,6 +66,10 @@ infix operator |&&: AdditionPrecedence
 /// combineLatest
 postfix operator +++
 infix operator +++: AdditionPrecedence
+
+/// zip
+postfix operator +-+
+infix operator +-+: AdditionPrecedence
 
 /// merge
 infix operator ***: MultiplicationPrecedence

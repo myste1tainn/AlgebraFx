@@ -10,6 +10,7 @@ import RxCocoa
 public protocol DriverType: SharedSequenceConvertibleType where SharingStrategy == DriverSharingStrategy {
 }
 
-extension Driver: DriverType where S == DriverSharingStrategy {
+extension SharedSequence: DriverType where S == DriverSharingStrategy {
+
 }
 

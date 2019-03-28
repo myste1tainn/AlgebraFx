@@ -57,11 +57,11 @@ extension SharedSequenceConvertibleType where SharingStrategy == DriverSharingSt
     return left.do(onNext: right)
   }
   
-  public static func --->(left: Self, right: Void) -> Disposable {
+  public static func -->(left: Self, right: Void) -> Disposable {
     return left.drive()
   }
   
-  public static func --->(left: Self, right: @escaping (E) -> Void) -> Disposable {
+  public static func -->(left: Self, right: @escaping (E) -> Void) -> Disposable {
     return left.drive(onNext: { right($0) })
   }
   
@@ -69,7 +69,7 @@ extension SharedSequenceConvertibleType where SharingStrategy == DriverSharingSt
     return left.filter(right)
   }
   
-  public static func ---><R>(left: Self, right: R) -> Disposable where E == R.E, R: ObserverType {
+  public static func --><R>(left: Self, right: R) -> Disposable where E == R.E, R: ObserverType {
     return left.drive(right)
   }
   

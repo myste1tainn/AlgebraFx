@@ -22,8 +22,8 @@ class ViewController: UIViewController {
     // Do any additional setup after loading the view, typically from a nib.
     greetingsLabel = UILabel()
     guard let greetingsLabel = greetingsLabel else { return }
-    Observable.just(1) >>> { "\($0)" } ---> greetingsLabel.rx.text | disposeBag
-    Driver.just(2) >>> { "\($0)" } ---> greetingsLabel.rx.text | disposeBag
+    Observable.just(1) >>> { "\($0)" } --> greetingsLabel.rx.text | disposeBag
+    Driver.just(2) >>> { "\($0)" } --> greetingsLabel.rx.text | disposeBag
   }
   
   override func didReceiveMemoryWarning() {
