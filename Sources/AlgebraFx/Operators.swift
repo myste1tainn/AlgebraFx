@@ -89,3 +89,6 @@ infix operator /--: AdditionPrecedence
 
 /// combineLatest { && }
 infix operator &&&: LogicalConjunctionPrecedence
+
+/// reduce
+prefix operator ∑

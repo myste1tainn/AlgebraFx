@@ -3,8 +3,12 @@
 // Copyright (c) 2019 AMOS Thailand. All rights reserved.
 //
 
-import Foundation
+#if !(TARGET_OS_SIMUATOR || TARGET_OS_iOS)
+// If the target is OS simulator or iOS then it is built with cocoapods
+// and is using subspecs where module dependencies is not required.
 import AlgebraFx
+#endif
+import Foundation
 import SwiftExpansion
 import RxSwiftExpansion
 import RxSwift
@@ -63,7 +67,7 @@ extension ObservableType {
   public static func |(left: Self, right: Int) -> Observable<E> {
     return left.take(right)
   }
-
+  
   public static func ~~~(left: Self, right: @escaping (E) -> Bool) -> Observable<E> {
     return left.filter(right)
   }
@@ -134,7 +138,7 @@ public func ***<T>(left: Observable<T>, right: Observable<T>) -> Observable<T> {
   return Observable.merge([left, right])
 }
 
-extension ObservableType where E == Bool  {
+extension ObservableType where E == Bool {
   public static func ~~~(left: Self, right: E) -> Observable<E> {
     return left.filter { $0 == right }
   }
