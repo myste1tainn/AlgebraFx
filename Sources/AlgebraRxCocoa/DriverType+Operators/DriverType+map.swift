@@ -13,16 +13,16 @@ import SwiftExpansion
 import RxSwiftExpansion
 import RxSwift
 
-extension ObservableType {
-  public static func >>>(left: Self, right: Void) -> Observable<Void> {
+extension DriverType {
+  public static func >>>(left: Self, right: Void) -> Driver<Void> {
     return left.map { _ in }
   }
   
-  public static func >>><R>(left: Self, right: R) -> Observable<R> {
+  public static func >>><R>(left: Self, right: R) -> Driver<R> {
     return left.map { _ in right }
   }
   
-  public static func >>><R>(left: Self, right: @escaping (E) -> R) -> Observable<R> {
+  public static func >>><R>(left: Self, right: @escaping (E) -> R) -> Driver<R> {
     return left.map { l -> R in right(l) }
   }
 }

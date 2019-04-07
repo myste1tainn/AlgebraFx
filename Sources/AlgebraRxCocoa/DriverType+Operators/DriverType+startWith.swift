@@ -13,8 +13,8 @@ import SwiftExpansion
 import RxSwiftExpansion
 import RxSwift
 
-extension ObservableType {
-  public static func |>>(left: E, right: Self) -> Observable<E> {
+extension DriverType {
+  public static func |>>(left: E, right: Self) -> Driver<E> {
     return right.startWith(left)
   }
 }

@@ -13,14 +13,14 @@ import SwiftExpansion
 import RxSwiftExpansion
 import RxSwift
 
-extension ObservableType {
-  public static func ~~~(left: Self, right: @escaping (E) -> Bool) -> Observable<E> {
+extension DriverType {
+  public static func ~~~(left: Self, right: @escaping (E) -> Bool) -> Driver<E> {
     return left.filter(right)
   }
 }
 
-extension ObservableType where E == Bool {
-  public static func ~~~(left: Self, right: E) -> Observable<E> {
+extension DriverType where E == Bool {
+  public static func ~~~(left: Self, right: E) -> Driver<E> {
     return left.filter { $0 == right }
   }
 }

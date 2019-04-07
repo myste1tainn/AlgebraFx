@@ -13,12 +13,12 @@ import SwiftExpansion
 import RxSwiftExpansion
 import RxSwift
 
-extension ObservableType {
-  public static func --/(left: Self, right: RxTimeInterval) -> Observable<E> {
+extension DriverType {
+  public static func --/(left: Self, right: RxTimeInterval) -> Driver<E> {
     return left.debounce(right, scheduler: ConcurrentDispatchQueueScheduler(qos: .userInteractive))
   }
   
-  public static func --/(left: Self, right: (RxTimeInterval, SchedulerType)) -> Observable<E> {
+  public static func --/(left: Self, right: (RxTimeInterval, SchedulerType)) -> Driver<E> {
     return left.debounce(right.0, scheduler: right.1)
   }
 }

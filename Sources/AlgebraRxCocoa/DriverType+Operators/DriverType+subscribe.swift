@@ -13,7 +13,7 @@ import SwiftExpansion
 import RxSwiftExpansion
 import RxSwift
 
-extension ObservableType {
+extension DriverType {
   public static func -->(left: Self, right: Void) -> Disposable {
     return left.subscribe()
   }

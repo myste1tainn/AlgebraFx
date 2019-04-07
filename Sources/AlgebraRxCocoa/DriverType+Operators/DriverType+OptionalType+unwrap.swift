@@ -12,8 +12,8 @@ import SwiftExpansion
 import RxSwiftExpansion
 import RxSwift
 
-extension ObservableType where E: OptionalType {
-  public static postfix func ~~!(this: Self) -> Observable<E.Wrapped> {
+extension DriverType where E: OptionalType {
+  public static postfix func ~~!(this: Self) -> Driver<E.Wrapped> {
     return this.unwrap()
   }
 }

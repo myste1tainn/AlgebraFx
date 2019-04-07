@@ -13,8 +13,8 @@ import SwiftExpansion
 import RxSwiftExpansion
 import RxSwift
 
-extension ObservableType {
-  public static func |&&<R: ObservableType>(left: Self, right: R) -> Observable<R.E> {
+extension DriverType {
+  public static func |&&<R: DriverType>(left: Self, right: R) -> Driver<R.E> {
     return left.withLatestFrom(right)
   }
 }

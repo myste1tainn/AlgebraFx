@@ -13,12 +13,12 @@ import SwiftExpansion
 import RxSwiftExpansion
 import RxSwift
 
-extension ObservableType {
-  public static func >-|<R: ObservableType>(left: Self, right: R) -> Observable<R.E> {
-    return left.flatMapFirst { _ in right.asObservable() }
+extension DriverType {
+  public static func >-|<R: DriverType>(left: Self, right: R) -> Driver<R.E> {
+    return left.flatMapFirst { _ in right.asDriver() }
   }
   
-  public static func >-|<R>(left: Self, right: @escaping (E) -> Observable<R>) -> Observable<R> {
+  public static func >-|<R>(left: Self, right: @escaping (E) -> Driver<R>) -> Driver<R> {
     return left.flatMapFirst { right($0) }
   }
 }
