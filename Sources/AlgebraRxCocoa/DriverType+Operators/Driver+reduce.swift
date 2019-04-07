@@ -11,7 +11,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-public prefix func ∑<T>(this: [Driver<T>]) -> Driver<T> {
-  return this.reduce(Driver.empty()) { $0.concat($1) }
-}
+//public prefix func ∑<T>(this: [Driver<T>]) -> Driver<T> {
+//  return this.reduce(Driver.empty()) { $0.concat($1) }
+//}
 

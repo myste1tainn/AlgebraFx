@@ -16,8 +16,8 @@ extension DriverType {
   }
 }
 
-public postfix func +-+<T: DriverType>(target: [T]) -> Driver<[T.E]> {
-  return Driver.zip(target)
+public postfix func +-+<T>(target: [Driver<T>]) -> Driver<[T]> {
+  return Driver.zip(target).asDriver()
 }
 
 public postfix func +-+<

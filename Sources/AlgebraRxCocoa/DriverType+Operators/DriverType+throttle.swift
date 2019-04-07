@@ -16,10 +16,10 @@ import RxCocoa
 
 extension DriverType {
   public static func /--(left: Self, right: RxTimeInterval) -> Driver<E> {
-    return left.throttle(right, scheduler: ConcurrentDispatchQueueScheduler(qos: .userInteractive))
+    return left.throttle(right)
   }
   
   public static func /--(left: Self, right: (RxTimeInterval, SchedulerType)) -> Driver<E> {
-    return left.throttle(right.0, scheduler: right.1)
+    return left.throttle(right.0)
   }
 }

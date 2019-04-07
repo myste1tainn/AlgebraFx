@@ -40,9 +40,7 @@ extension DriverType {
   }
 }
 
-extension Array where Element: DriverType {
-  public static postfix func +++(this: Array<Element>) -> Driver<[Element.E]> {
-    return Driver.combineLatest(this)
-  }
+public postfix func +++<T>(this: [Driver<T>]) -> Driver<[T]> {
+  return Driver.combineLatest(this).asDriver()
 }
 

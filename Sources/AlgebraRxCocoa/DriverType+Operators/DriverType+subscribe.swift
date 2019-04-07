@@ -16,14 +16,14 @@ import RxCocoa
 
 extension DriverType {
   public static func -->(left: Self, right: Void) -> Disposable {
-    return left.subscribe()
+    return left.drive()
   }
   
   public static func -->(left: Self, right: @escaping (E) -> Void) -> Disposable {
-    return left.subscribe(onNext: { right($0) })
+    return left.drive(onNext: { right($0) })
   }
   
   public static func --><R>(left: Self, right: R) -> Disposable where E == R.E, R: ObserverType {
-    return left.subscribe(right)
+    return left.drive(right)
   }
 }

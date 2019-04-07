@@ -16,15 +16,15 @@ import RxCocoa
 
 extension DriverType {
   public static func >-><R: DriverType>(left: Self, right: R) -> Driver<R.E> {
-    return left.flatMap { _ in right }
+    return left.flatMap { _ in right.asDriver() }
   }
   
   public static func >-><R: DriverType>(left: Self, right: @escaping (E) -> R) -> Driver<R.E> {
-    return left.flatMap { l in right(l) }
+    return left.flatMap { l in right(l).asDriver() }
   }
   
   public static func >-><R: DriverType>(left: Self, right: @escaping (E) -> R) -> Driver<R.E> where E: OptionalType {
-    return left.flatMap { l in right(l) }
+    return left.flatMap { l in right(l).asDriver() }
   }
 }
 
