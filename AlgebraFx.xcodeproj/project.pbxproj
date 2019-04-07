@@ -24,25 +24,44 @@
 
 /* Begin PBXBuildFile section */
 		25499018B0C76A14413AC943 /* ObservableType+filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499E56187DC2C8920FA7D6 /* ObservableType+filter.swift */; };
+		254990360BD943812BE14A19 /* DriverType+filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499618917FF892CFEC9CA6 /* DriverType+filter.swift */; };
 		2549919381443229D7F3BC2E /* ObservableType+merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2549977F412A28241E2AD02D /* ObservableType+merge.swift */; };
 		254991FBD3BC9A4B40BB46CC /* ObservableType+startWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254999F7EE9C0D47B16D9D46 /* ObservableType+startWith.swift */; };
+		2549920F6EB89A40683DC862 /* DriverType+withLatestFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2549918AB57F8C3A52E13119 /* DriverType+withLatestFrom.swift */; };
 		2549922064E74E533BB596B4 /* Observable+reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499902588D475B67DCB29A /* Observable+reduce.swift */; };
+		254992B606B0B687CE3A35C7 /* DriverType+throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254990AB84F3BAD050FA1F14 /* DriverType+throttle.swift */; };
 		254992EBBDF27FDC411C6FC1 /* ObservableType+flatMapFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254990A3BB7ABEEE18F0888E /* ObservableType+flatMapFirst.swift */; };
 		2549946F810C007347EA716A /* ObservableType+withLatestFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499587886098CEBE22109F /* ObservableType+withLatestFrom.swift */; };
+		254994CCA3E40314BF7FAB7C /* DriverType+distinctUntilChanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499F257E04AD95B7FAB731 /* DriverType+distinctUntilChanged.swift */; };
 		254994F2D675BCFC672D66A2 /* ObservableType+distinctUntilChanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2549937BFA6975BF11851FB2 /* ObservableType+distinctUntilChanged.swift */; };
+		254995C6D0F01656263D08AE /* DriverType+do.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499199FE842777611E0C16 /* DriverType+do.swift */; };
+		254995DEFE12853F902F7118 /* DriverType+zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499A80E3ACBF712C690B34 /* DriverType+zip.swift */; };
 		254995F70C33DA9F8EC72C21 /* ObservableType+subscribe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499E34119D409028C676DD /* ObservableType+subscribe.swift */; };
 		254996313DBA8488FE5D7BE1 /* ObservableType+disposed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2549932BEBA2B40F5DA32D44 /* ObservableType+disposed.swift */; };
+		254997332366C7454B5E9B82 /* DriverType+OptionalType+unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254992AD2757C6991427A3F9 /* DriverType+OptionalType+unwrap.swift */; };
+		2549974CCDCBF3438CB525D8 /* DriverType+map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254998D4E7F08DC3377EE04B /* DriverType+map.swift */; };
 		254997C1515663DE05EC32E2 /* ObservableType+do.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254992DD2577053E3A63B30A /* ObservableType+do.swift */; };
 		2549984451491809A52D228C /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499E902464C2E9A0954FAA /* GlobalFunctions.swift */; };
 		254998ADCBD6C0923B2401FD /* ObservableType+combineLatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254999D86429DC16063ABDBE /* ObservableType+combineLatest.swift */; };
+		254998EB7F1DD6B32D04F2A8 /* DriverType+flatMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2549971815FEAF247CBE3D70 /* DriverType+flatMap.swift */; };
 		254999DF15AC3E1FA6DB7857 /* ObservableType+take.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254995263D9C840F4FDEF229 /* ObservableType+take.swift */; };
 		254999EFD9769A281BA4E205 /* ObservableType+map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499D26D5A96694300AD9B0 /* ObservableType+map.swift */; };
 		25499A7241DDE48D8BDC266F /* ObservableType+debounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254994C91E6B3B2D3CC9DA22 /* ObservableType+debounce.swift */; };
 		25499A86D0922E3883A97EDB /* ObservableType+flatMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499AAFB60BB4D5068DF6A2 /* ObservableType+flatMap.swift */; };
+		25499AC6455F5E4375C663DB /* DriverType+subscribe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254993ACBE4BEB2473B79338 /* DriverType+subscribe.swift */; };
+		25499ADCDAA0CF43A513A5B6 /* DriverType+startWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499871ECC6DEF59AE546F2 /* DriverType+startWith.swift */; };
 		25499AF023C251DB8D0B02D9 /* ObservableType+zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2549948604DD18E452196F85 /* ObservableType+zip.swift */; };
+		25499B6AC4A4FE089110D868 /* DriverType+flatMapFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254995D0540BBB15632336AA /* DriverType+flatMapFirst.swift */; };
 		25499C0F2829ED609FAAFD49 /* ObservableType+flatMapLatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2549929DAC75E0453F79F4DF /* ObservableType+flatMapLatest.swift */; };
+		25499C4A4730FB8075761B75 /* DriverType+disposed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2549967E249C38405B5F3C87 /* DriverType+disposed.swift */; };
+		25499C6AC7667459D9FEC8F7 /* DriverType+debounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499FD987C2815B9D51D708 /* DriverType+debounce.swift */; };
 		25499CC1E0552E3692C49103 /* ObservableType+OptionalType+unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499C1D4B56DF8D1E60A6FD /* ObservableType+OptionalType+unwrap.swift */; };
+		25499CF994D21BE15C28664B /* DriverType+flatMapLatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2549990308B72A5F9AFAE61F /* DriverType+flatMapLatest.swift */; };
+		25499E02861011BF497A7C71 /* DriverType+take.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499BE4BCC60D55C8CDA649 /* DriverType+take.swift */; };
+		25499E036A11FBECBDEE787E /* DriverType+combineLatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254998EA86A58E6DBB4B2D65 /* DriverType+combineLatest.swift */; };
 		25499E1F8E2DF172687892EA /* ObservableType+throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499C4CDBA9C5736E2A55D6 /* ObservableType+throttle.swift */; };
+		25499E24E712B34B6FB7CABF /* Driver+reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499AFD348955617F97EF6B /* Driver+reduce.swift */; };
+		25499F9BCA32493D3B131D6E /* DriverType+merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254998D0E13BE943B208DF4E /* DriverType+merge.swift */; };
 		OBJ_361 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Operators.swift */; };
 		OBJ_362 /* Sequence+flatMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Sequence+flatMap.swift */; };
 		OBJ_363 /* Sequence+compactMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Sequence+compactMap.swift */; };
@@ -57,8 +76,6 @@
 		OBJ_402 /* DriverTransformFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* DriverTransformFunctions.swift */; };
 		OBJ_403 /* DriverType+BreakdownFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* DriverType+BreakdownFunctions.swift */; };
 		OBJ_404 /* DriverType+BreakdownOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* DriverType+BreakdownOperator.swift */; };
-		OBJ_405 /* DriverType+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* DriverType+Operators.swift */; };
-		OBJ_406 /* DriverType+zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* DriverType+zip.swift */; };
 		OBJ_407 /* DriverType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* DriverType.swift */; };
 		OBJ_408 /* ObservableType+BreakdownFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* ObservableType+BreakdownFunctions.swift */; };
 		OBJ_409 /* ObservableType+Piping.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* ObservableType+Piping.swift */; };
@@ -402,25 +419,63 @@
 
 /* Begin PBXFileReference section */
 		254990A3BB7ABEEE18F0888E /* ObservableType+flatMapFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+flatMapFirst.swift"; sourceTree = "<group>"; };
+		254990AB84F3BAD050FA1F14 /* DriverType+throttle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+throttle.swift"; sourceTree = "<group>"; };
+		254990D0C666F77FB2AE4778 /* DriverType+do.swift-e */ = {isa = PBXFileReference; lastKnownFileType = "file.swift-e"; path = "DriverType+do.swift-e"; sourceTree = "<group>"; };
+		2549918AB57F8C3A52E13119 /* DriverType+withLatestFrom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+withLatestFrom.swift"; sourceTree = "<group>"; };
+		25499199FE842777611E0C16 /* DriverType+do.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+do.swift"; sourceTree = "<group>"; };
+		2549920989424D1EBA080C6A /* DriverType+combineLatest.swift-e */ = {isa = PBXFileReference; lastKnownFileType = "file.swift-e"; path = "DriverType+combineLatest.swift-e"; sourceTree = "<group>"; };
 		2549929DAC75E0453F79F4DF /* ObservableType+flatMapLatest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+flatMapLatest.swift"; sourceTree = "<group>"; };
+		254992AD2757C6991427A3F9 /* DriverType+OptionalType+unwrap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+OptionalType+unwrap.swift"; sourceTree = "<group>"; };
 		254992DD2577053E3A63B30A /* ObservableType+do.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+do.swift"; sourceTree = "<group>"; };
 		2549932BEBA2B40F5DA32D44 /* ObservableType+disposed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+disposed.swift"; sourceTree = "<group>"; };
+		2549934443D6BA6AFD6B83AB /* DriverType+subscribe.swift-e */ = {isa = PBXFileReference; lastKnownFileType = "file.swift-e"; path = "DriverType+subscribe.swift-e"; sourceTree = "<group>"; };
+		2549934DA2A4B84E693A2900 /* DriverType+debounce.swift-e */ = {isa = PBXFileReference; lastKnownFileType = "file.swift-e"; path = "DriverType+debounce.swift-e"; sourceTree = "<group>"; };
 		2549937BFA6975BF11851FB2 /* ObservableType+distinctUntilChanged.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+distinctUntilChanged.swift"; sourceTree = "<group>"; };
+		2549938C6DB4483C9C99AEB3 /* DriverType+filter.swift-e */ = {isa = PBXFileReference; lastKnownFileType = "file.swift-e"; path = "DriverType+filter.swift-e"; sourceTree = "<group>"; };
+		254993ACBE4BEB2473B79338 /* DriverType+subscribe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+subscribe.swift"; sourceTree = "<group>"; };
 		2549948604DD18E452196F85 /* ObservableType+zip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+zip.swift"; sourceTree = "<group>"; };
 		254994C91E6B3B2D3CC9DA22 /* ObservableType+debounce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+debounce.swift"; sourceTree = "<group>"; };
+		254994FB19FDCCAFCED44813 /* Driver+reduce.swift-e */ = {isa = PBXFileReference; lastKnownFileType = "file.swift-e"; path = "Driver+reduce.swift-e"; sourceTree = "<group>"; };
 		254995263D9C840F4FDEF229 /* ObservableType+take.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+take.swift"; sourceTree = "<group>"; };
 		25499587886098CEBE22109F /* ObservableType+withLatestFrom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+withLatestFrom.swift"; sourceTree = "<group>"; };
+		254995D0540BBB15632336AA /* DriverType+flatMapFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+flatMapFirst.swift"; sourceTree = "<group>"; };
+		25499618917FF892CFEC9CA6 /* DriverType+filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+filter.swift"; sourceTree = "<group>"; };
+		2549967E249C38405B5F3C87 /* DriverType+disposed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+disposed.swift"; sourceTree = "<group>"; };
+		2549971815FEAF247CBE3D70 /* DriverType+flatMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+flatMap.swift"; sourceTree = "<group>"; };
 		2549977F412A28241E2AD02D /* ObservableType+merge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+merge.swift"; sourceTree = "<group>"; };
+		254998706438931FEEAA0566 /* DriverType+startWith.swift-e */ = {isa = PBXFileReference; lastKnownFileType = "file.swift-e"; path = "DriverType+startWith.swift-e"; sourceTree = "<group>"; };
+		25499871ECC6DEF59AE546F2 /* DriverType+startWith.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+startWith.swift"; sourceTree = "<group>"; };
+		254998D0E13BE943B208DF4E /* DriverType+merge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+merge.swift"; sourceTree = "<group>"; };
+		254998D4E7F08DC3377EE04B /* DriverType+map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+map.swift"; sourceTree = "<group>"; };
+		254998EA86A58E6DBB4B2D65 /* DriverType+combineLatest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+combineLatest.swift"; sourceTree = "<group>"; };
+		254998F665DBD9440B9C1E48 /* DriverType+merge.swift-e */ = {isa = PBXFileReference; lastKnownFileType = "file.swift-e"; path = "DriverType+merge.swift-e"; sourceTree = "<group>"; };
 		25499902588D475B67DCB29A /* Observable+reduce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+reduce.swift"; sourceTree = "<group>"; };
+		2549990308B72A5F9AFAE61F /* DriverType+flatMapLatest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+flatMapLatest.swift"; sourceTree = "<group>"; };
+		2549992D26988E067EEB6B6D /* DriverType+withLatestFrom.swift-e */ = {isa = PBXFileReference; lastKnownFileType = "file.swift-e"; path = "DriverType+withLatestFrom.swift-e"; sourceTree = "<group>"; };
 		254999D86429DC16063ABDBE /* ObservableType+combineLatest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+combineLatest.swift"; sourceTree = "<group>"; };
 		254999F7EE9C0D47B16D9D46 /* ObservableType+startWith.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+startWith.swift"; sourceTree = "<group>"; };
+		25499A80E3ACBF712C690B34 /* DriverType+zip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+zip.swift"; sourceTree = "<group>"; };
+		25499A9C43EE76C7BE0450CB /* DriverType+zip.swift-e */ = {isa = PBXFileReference; lastKnownFileType = "file.swift-e"; path = "DriverType+zip.swift-e"; sourceTree = "<group>"; };
 		25499AAFB60BB4D5068DF6A2 /* ObservableType+flatMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+flatMap.swift"; sourceTree = "<group>"; };
+		25499ADE460B12EB9969E032 /* DriverType+flatMap.swift-e */ = {isa = PBXFileReference; lastKnownFileType = "file.swift-e"; path = "DriverType+flatMap.swift-e"; sourceTree = "<group>"; };
+		25499AEF1F7248D2E9529C6D /* DriverType+OptionalType+unwrap.swift-e */ = {isa = PBXFileReference; lastKnownFileType = "file.swift-e"; path = "DriverType+OptionalType+unwrap.swift-e"; sourceTree = "<group>"; };
+		25499AFD348955617F97EF6B /* Driver+reduce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Driver+reduce.swift"; sourceTree = "<group>"; };
+		25499BDF854503A2CC5AB071 /* DriverType+flatMapLatest.swift-e */ = {isa = PBXFileReference; lastKnownFileType = "file.swift-e"; path = "DriverType+flatMapLatest.swift-e"; sourceTree = "<group>"; };
+		25499BE4BCC60D55C8CDA649 /* DriverType+take.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+take.swift"; sourceTree = "<group>"; };
 		25499C1D4B56DF8D1E60A6FD /* ObservableType+OptionalType+unwrap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+OptionalType+unwrap.swift"; sourceTree = "<group>"; };
+		25499C479BA236173B138F3E /* DriverType+take.swift-e */ = {isa = PBXFileReference; lastKnownFileType = "file.swift-e"; path = "DriverType+take.swift-e"; sourceTree = "<group>"; };
 		25499C4CDBA9C5736E2A55D6 /* ObservableType+throttle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+throttle.swift"; sourceTree = "<group>"; };
+		25499CA4298C78049D517FF2 /* DriverType+map.swift-e */ = {isa = PBXFileReference; lastKnownFileType = "file.swift-e"; path = "DriverType+map.swift-e"; sourceTree = "<group>"; };
 		25499D26D5A96694300AD9B0 /* ObservableType+map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+map.swift"; sourceTree = "<group>"; };
+		25499DB92296AB8CBB379839 /* DriverType+throttle.swift-e */ = {isa = PBXFileReference; lastKnownFileType = "file.swift-e"; path = "DriverType+throttle.swift-e"; sourceTree = "<group>"; };
+		25499DD29F21D5842115184D /* DriverType+flatMapFirst.swift-e */ = {isa = PBXFileReference; lastKnownFileType = "file.swift-e"; path = "DriverType+flatMapFirst.swift-e"; sourceTree = "<group>"; };
 		25499E34119D409028C676DD /* ObservableType+subscribe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+subscribe.swift"; sourceTree = "<group>"; };
 		25499E56187DC2C8920FA7D6 /* ObservableType+filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+filter.swift"; sourceTree = "<group>"; };
 		25499E902464C2E9A0954FAA /* GlobalFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
+		25499F1CF4BE6BBB55BC32E4 /* DriverType+disposed.swift-e */ = {isa = PBXFileReference; lastKnownFileType = "file.swift-e"; path = "DriverType+disposed.swift-e"; sourceTree = "<group>"; };
+		25499F257E04AD95B7FAB731 /* DriverType+distinctUntilChanged.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+distinctUntilChanged.swift"; sourceTree = "<group>"; };
+		25499FD987C2815B9D51D708 /* DriverType+debounce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+debounce.swift"; sourceTree = "<group>"; };
+		25499FD9CA0B18C2CD03EE98 /* DriverType+distinctUntilChanged.swift-e */ = {isa = PBXFileReference; lastKnownFileType = "file.swift-e"; path = "DriverType+distinctUntilChanged.swift-e"; sourceTree = "<group>"; };
 		"AlgebraFx::AlgebraFx::Product" /* AlgebraFx.framework */ = {isa = PBXFileReference; path = AlgebraFx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"AlgebraFx::AlgebraFxTests::Product" /* AlgebraFxTests.xctest */ = {isa = PBXFileReference; path = AlgebraFxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		"AlgebraFx::AlgebraRxCocoa::Product" /* AlgebraRxCocoa.framework */ = {isa = PBXFileReference; path = AlgebraRxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -449,7 +504,6 @@
 		OBJ_117 /* RxCollectionViewReactiveArrayDataSource.swift */ = {isa = PBXFileReference; path = RxCollectionViewReactiveArrayDataSource.swift; sourceTree = "<group>"; };
 		OBJ_118 /* RxNavigationControllerDelegateProxy.swift */ = {isa = PBXFileReference; path = RxNavigationControllerDelegateProxy.swift; sourceTree = "<group>"; };
 		OBJ_119 /* RxPickerViewAdapter.swift */ = {isa = PBXFileReference; path = RxPickerViewAdapter.swift; sourceTree = "<group>"; };
-		OBJ_12 /* DriverType+Operators.swift */ = {isa = PBXFileReference; path = "DriverType+Operators.swift"; sourceTree = "<group>"; };
 		OBJ_120 /* RxPickerViewDataSourceProxy.swift */ = {isa = PBXFileReference; path = RxPickerViewDataSourceProxy.swift; sourceTree = "<group>"; };
 		OBJ_121 /* RxPickerViewDataSourceType.swift */ = {isa = PBXFileReference; path = RxPickerViewDataSourceType.swift; sourceTree = "<group>"; };
 		OBJ_122 /* RxPickerViewDelegateProxy.swift */ = {isa = PBXFileReference; path = RxPickerViewDelegateProxy.swift; sourceTree = "<group>"; };
@@ -460,7 +514,6 @@
 		OBJ_127 /* RxTabBarDelegateProxy.swift */ = {isa = PBXFileReference; path = RxTabBarDelegateProxy.swift; sourceTree = "<group>"; };
 		OBJ_128 /* RxTableViewDataSourcePrefetchingProxy.swift */ = {isa = PBXFileReference; path = RxTableViewDataSourcePrefetchingProxy.swift; sourceTree = "<group>"; };
 		OBJ_129 /* RxTableViewDataSourceProxy.swift */ = {isa = PBXFileReference; path = RxTableViewDataSourceProxy.swift; sourceTree = "<group>"; };
-		OBJ_13 /* DriverType+zip.swift */ = {isa = PBXFileReference; path = "DriverType+zip.swift"; sourceTree = "<group>"; };
 		OBJ_130 /* RxTableViewDataSourceType.swift */ = {isa = PBXFileReference; path = RxTableViewDataSourceType.swift; sourceTree = "<group>"; };
 		OBJ_131 /* RxTableViewDelegateProxy.swift */ = {isa = PBXFileReference; path = RxTableViewDelegateProxy.swift; sourceTree = "<group>"; };
 		OBJ_132 /* RxTableViewReactiveArrayDataSource.swift */ = {isa = PBXFileReference; path = RxTableViewReactiveArrayDataSource.swift; sourceTree = "<group>"; };
@@ -885,6 +938,51 @@
 				254992DD2577053E3A63B30A /* ObservableType+do.swift */,
 			);
 			path = "ObservableType+Operators";
+			sourceTree = "<group>";
+		};
+		2549980D3FEBE0FC660E57C5 /* DriverType+Operators */ = {
+			isa = PBXGroup;
+			children = (
+				25499AFD348955617F97EF6B /* Driver+reduce.swift */,
+				25499199FE842777611E0C16 /* DriverType+do.swift */,
+				254998D4E7F08DC3377EE04B /* DriverType+map.swift */,
+				25499A80E3ACBF712C690B34 /* DriverType+zip.swift */,
+				254994FB19FDCCAFCED44813 /* Driver+reduce.swift-e */,
+				254990D0C666F77FB2AE4778 /* DriverType+do.swift-e */,
+				25499BE4BCC60D55C8CDA649 /* DriverType+take.swift */,
+				25499CA4298C78049D517FF2 /* DriverType+map.swift-e */,
+				254998D0E13BE943B208DF4E /* DriverType+merge.swift */,
+				25499A9C43EE76C7BE0450CB /* DriverType+zip.swift-e */,
+				25499618917FF892CFEC9CA6 /* DriverType+filter.swift */,
+				25499C479BA236173B138F3E /* DriverType+take.swift-e */,
+				2549971815FEAF247CBE3D70 /* DriverType+flatMap.swift */,
+				254998F665DBD9440B9C1E48 /* DriverType+merge.swift-e */,
+				25499FD987C2815B9D51D708 /* DriverType+debounce.swift */,
+				2549967E249C38405B5F3C87 /* DriverType+disposed.swift */,
+				2549938C6DB4483C9C99AEB3 /* DriverType+filter.swift-e */,
+				254990AB84F3BAD050FA1F14 /* DriverType+throttle.swift */,
+				25499ADE460B12EB9969E032 /* DriverType+flatMap.swift-e */,
+				25499871ECC6DEF59AE546F2 /* DriverType+startWith.swift */,
+				254993ACBE4BEB2473B79338 /* DriverType+subscribe.swift */,
+				2549934DA2A4B84E693A2900 /* DriverType+debounce.swift-e */,
+				25499F1CF4BE6BBB55BC32E4 /* DriverType+disposed.swift-e */,
+				25499DB92296AB8CBB379839 /* DriverType+throttle.swift-e */,
+				254998706438931FEEAA0566 /* DriverType+startWith.swift-e */,
+				2549934443D6BA6AFD6B83AB /* DriverType+subscribe.swift-e */,
+				254995D0540BBB15632336AA /* DriverType+flatMapFirst.swift */,
+				254998EA86A58E6DBB4B2D65 /* DriverType+combineLatest.swift */,
+				2549990308B72A5F9AFAE61F /* DriverType+flatMapLatest.swift */,
+				25499DD29F21D5842115184D /* DriverType+flatMapFirst.swift-e */,
+				2549918AB57F8C3A52E13119 /* DriverType+withLatestFrom.swift */,
+				2549920989424D1EBA080C6A /* DriverType+combineLatest.swift-e */,
+				25499BDF854503A2CC5AB071 /* DriverType+flatMapLatest.swift-e */,
+				2549992D26988E067EEB6B6D /* DriverType+withLatestFrom.swift-e */,
+				254992AD2757C6991427A3F9 /* DriverType+OptionalType+unwrap.swift */,
+				25499F257E04AD95B7FAB731 /* DriverType+distinctUntilChanged.swift */,
+				25499AEF1F7248D2E9529C6D /* DriverType+OptionalType+unwrap.swift-e */,
+				25499FD9CA0B18C2CD03EE98 /* DriverType+distinctUntilChanged.swift-e */,
+			);
+			path = "DriverType+Operators";
 			sourceTree = "<group>";
 		};
 		OBJ_17 /* AlgebraFx */ = {
@@ -1450,11 +1548,10 @@
 				OBJ_9 /* DriverTransformFunctions.swift */,
 				OBJ_10 /* DriverType+BreakdownFunctions.swift */,
 				OBJ_11 /* DriverType+BreakdownOperator.swift */,
-				OBJ_12 /* DriverType+Operators.swift */,
-				OBJ_13 /* DriverType+zip.swift */,
 				OBJ_14 /* DriverType.swift */,
 				OBJ_15 /* ObservableType+BreakdownFunctions.swift */,
 				OBJ_16 /* ObservableType+Piping.swift */,
+				2549980D3FEBE0FC660E57C5 /* DriverType+Operators */,
 			);
 			name = AlgebraRxCocoa;
 			path = Sources/AlgebraRxCocoa;
@@ -1833,11 +1930,28 @@
 				OBJ_402 /* DriverTransformFunctions.swift in Sources */,
 				OBJ_403 /* DriverType+BreakdownFunctions.swift in Sources */,
 				OBJ_404 /* DriverType+BreakdownOperator.swift in Sources */,
-				OBJ_405 /* DriverType+Operators.swift in Sources */,
-				OBJ_406 /* DriverType+zip.swift in Sources */,
 				OBJ_407 /* DriverType.swift in Sources */,
 				OBJ_408 /* ObservableType+BreakdownFunctions.swift in Sources */,
 				OBJ_409 /* ObservableType+Piping.swift in Sources */,
+				25499E24E712B34B6FB7CABF /* Driver+reduce.swift in Sources */,
+				254995C6D0F01656263D08AE /* DriverType+do.swift in Sources */,
+				2549974CCDCBF3438CB525D8 /* DriverType+map.swift in Sources */,
+				254995DEFE12853F902F7118 /* DriverType+zip.swift in Sources */,
+				25499E02861011BF497A7C71 /* DriverType+take.swift in Sources */,
+				25499F9BCA32493D3B131D6E /* DriverType+merge.swift in Sources */,
+				254990360BD943812BE14A19 /* DriverType+filter.swift in Sources */,
+				254998EB7F1DD6B32D04F2A8 /* DriverType+flatMap.swift in Sources */,
+				25499C6AC7667459D9FEC8F7 /* DriverType+debounce.swift in Sources */,
+				25499C4A4730FB8075761B75 /* DriverType+disposed.swift in Sources */,
+				254992B606B0B687CE3A35C7 /* DriverType+throttle.swift in Sources */,
+				25499ADCDAA0CF43A513A5B6 /* DriverType+startWith.swift in Sources */,
+				25499AC6455F5E4375C663DB /* DriverType+subscribe.swift in Sources */,
+				25499B6AC4A4FE089110D868 /* DriverType+flatMapFirst.swift in Sources */,
+				25499E036A11FBECBDEE787E /* DriverType+combineLatest.swift in Sources */,
+				25499CF994D21BE15C28664B /* DriverType+flatMapLatest.swift in Sources */,
+				2549920F6EB89A40683DC862 /* DriverType+withLatestFrom.swift in Sources */,
+				254997332366C7454B5E9B82 /* DriverType+OptionalType+unwrap.swift in Sources */,
+				254994CCA3E40314BF7FAB7C /* DriverType+distinctUntilChanged.swift in Sources */,
 			);
 		};
 		OBJ_439 /* Sources */ = {

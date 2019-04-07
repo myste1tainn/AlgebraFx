@@ -11,6 +11,7 @@ import Foundation
 import SwiftExpansion
 import RxSwiftExpansion
 import RxSwift
+import RxCocoa
 
 extension DriverType where E: OptionalType {
   public static postfix func ~~!(this: Self) -> Driver<E.Wrapped> {

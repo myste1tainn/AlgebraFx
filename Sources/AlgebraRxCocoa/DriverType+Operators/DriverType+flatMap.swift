@@ -12,6 +12,7 @@ import Foundation
 import SwiftExpansion
 import RxSwiftExpansion
 import RxSwift
+import RxCocoa
 
 extension DriverType {
   public static func >-><R: DriverType>(left: Self, right: R) -> Driver<R.E> {

@@ -12,6 +12,7 @@ import Foundation
 import SwiftExpansion
 import RxSwiftExpansion
 import RxSwift
+import RxCocoa
 
 public func |(left: Disposable, right: DisposeBag) {
   return left.disposed(by: right)

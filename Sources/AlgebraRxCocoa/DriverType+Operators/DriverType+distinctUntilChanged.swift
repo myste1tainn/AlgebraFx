@@ -12,6 +12,7 @@ import Foundation
 import SwiftExpansion
 import RxSwiftExpansion
 import RxSwift
+import RxCocoa
 
 extension DriverType where E: Hashable {
   public static prefix func ==(this: Self) -> Driver<E> {

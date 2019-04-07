@@ -12,6 +12,7 @@ import Foundation
 import SwiftExpansion
 import RxSwiftExpansion
 import RxSwift
+import RxCocoa
 
 public func ***<T>(left: Driver<T>, right: Driver<T>) -> Driver<T> {
   return Driver.merge([left, right])

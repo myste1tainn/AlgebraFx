@@ -8,6 +8,7 @@ import AlgebraFx
 
 import Foundation
 import RxSwift
+import RxCocoa
 
 extension DriverType {
   public static func +-+<Right: DriverType>(left: Self, right: Right) -> Driver<(Self.E, Right.E)> {
