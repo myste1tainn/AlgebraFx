@@ -33,6 +33,7 @@
 		2549946F810C007347EA716A /* ObservableType+withLatestFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499587886098CEBE22109F /* ObservableType+withLatestFrom.swift */; };
 		2549949590C53B7135D79AA6 /* DriverType+zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254998BDECB40AE90AE13E77 /* DriverType+zip.swift */; };
 		254994F2D675BCFC672D66A2 /* ObservableType+distinctUntilChanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2549937BFA6975BF11851FB2 /* ObservableType+distinctUntilChanged.swift */; };
+		254995BF7CE6972FF066C2E0 /* Driver+CastingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499A1D908084D92689C861 /* Driver+CastingFunction.swift */; };
 		254995F70C33DA9F8EC72C21 /* ObservableType+subscribe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499E34119D409028C676DD /* ObservableType+subscribe.swift */; };
 		254996313DBA8488FE5D7BE1 /* ObservableType+disposed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2549932BEBA2B40F5DA32D44 /* ObservableType+disposed.swift */; };
 		2549964D225636A10F09A1E6 /* Driver+reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499A16CD578FAFF8578060 /* Driver+reduce.swift */; };
@@ -56,6 +57,7 @@
 		25499C0F2829ED609FAAFD49 /* ObservableType+flatMapLatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2549929DAC75E0453F79F4DF /* ObservableType+flatMapLatest.swift */; };
 		25499C287C7A91BB5383FD30 /* DriverType+merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254991C5035D24416C4515E2 /* DriverType+merge.swift */; };
 		25499CC1E0552E3692C49103 /* ObservableType+OptionalType+unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499C1D4B56DF8D1E60A6FD /* ObservableType+OptionalType+unwrap.swift */; };
+		25499D7DE1357FD854156E1A /* Observable+CastingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254995A525850D4CD16129C1 /* Observable+CastingFunction.swift */; };
 		25499E1F8E2DF172687892EA /* ObservableType+throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499C4CDBA9C5736E2A55D6 /* ObservableType+throttle.swift */; };
 		25499F2BDCE5A00B11487C45 /* DriverType+flatMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499CD7076DE9AFA84632C0 /* DriverType+flatMap.swift */; };
 		25499F6F677BDFCEED89BDF3 /* DriverType+filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2549902D66FD2538BD592D52 /* DriverType+filter.swift */; };
@@ -434,6 +436,7 @@
 		254994D7482AFB1593064EB9 /* DriverType+debounce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+debounce.swift"; sourceTree = "<group>"; };
 		254995263D9C840F4FDEF229 /* ObservableType+take.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+take.swift"; sourceTree = "<group>"; };
 		25499587886098CEBE22109F /* ObservableType+withLatestFrom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+withLatestFrom.swift"; sourceTree = "<group>"; };
+		254995A525850D4CD16129C1 /* Observable+CastingFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+CastingFunction.swift"; sourceTree = "<group>"; };
 		2549977F412A28241E2AD02D /* ObservableType+merge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+merge.swift"; sourceTree = "<group>"; };
 		2549982EBBDCDD09772C7596 /* DriverType+flatMapLatest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+flatMapLatest.swift"; sourceTree = "<group>"; };
 		254998BDECB40AE90AE13E77 /* DriverType+zip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+zip.swift"; sourceTree = "<group>"; };
@@ -443,6 +446,7 @@
 		254999E4A58F5F0D55E09FBF /* DriverType+startWith.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+startWith.swift"; sourceTree = "<group>"; };
 		254999F7EE9C0D47B16D9D46 /* ObservableType+startWith.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+startWith.swift"; sourceTree = "<group>"; };
 		25499A16CD578FAFF8578060 /* Driver+reduce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Driver+reduce.swift"; sourceTree = "<group>"; };
+		25499A1D908084D92689C861 /* Driver+CastingFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Driver+CastingFunction.swift"; sourceTree = "<group>"; };
 		25499AAFB60BB4D5068DF6A2 /* ObservableType+flatMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+flatMap.swift"; sourceTree = "<group>"; };
 		25499B52A3E987293AAC1BBA /* DriverType+withLatestFrom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+withLatestFrom.swift"; sourceTree = "<group>"; };
 		25499C1D4B56DF8D1E60A6FD /* ObservableType+OptionalType+unwrap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+OptionalType+unwrap.swift"; sourceTree = "<group>"; };
@@ -1141,6 +1145,7 @@
 				OBJ_26 /* ObservableType+BreakdownOperator.swift */,
 				25499E902464C2E9A0954FAA /* GlobalFunctions.swift */,
 				2549931715B98AA20FD01F48 /* ObservableType+Operators */,
+				254995A525850D4CD16129C1 /* Observable+CastingFunction.swift */,
 			);
 			name = AlgebraRxSwift;
 			path = Sources/AlgebraRxSwift;
@@ -1514,6 +1519,7 @@
 				OBJ_16 /* ObservableType+Piping.swift */,
 				254995EF93B496ADB722D8DF /* DriverType+Operators */,
 				25499CD36BB14580C75430ED /* DriverType+Piping.swift */,
+				25499A1D908084D92689C861 /* Driver+CastingFunction.swift */,
 			);
 			name = AlgebraRxCocoa;
 			path = Sources/AlgebraRxCocoa;
@@ -1914,6 +1920,7 @@
 				2549968F03D9AC764C898A6E /* DriverType+OptionalType+unwrap.swift in Sources */,
 				2549968EA7A6D4565406FCB7 /* DriverType+distinctUntilChanged.swift in Sources */,
 				25499917D6C0F46C29F51C29 /* DriverType+Piping.swift in Sources */,
+				254995BF7CE6972FF066C2E0 /* Driver+CastingFunction.swift in Sources */,
 			);
 		};
 		OBJ_439 /* Sources */ = {
@@ -1947,6 +1954,7 @@
 				254995F70C33DA9F8EC72C21 /* ObservableType+subscribe.swift in Sources */,
 				25499A7241DDE48D8BDC266F /* ObservableType+debounce.swift in Sources */,
 				254997C1515663DE05EC32E2 /* ObservableType+do.swift in Sources */,
+				25499D7DE1357FD854156E1A /* Observable+CastingFunction.swift in Sources */,
 			);
 		};
 		OBJ_484 /* Sources */ = {
