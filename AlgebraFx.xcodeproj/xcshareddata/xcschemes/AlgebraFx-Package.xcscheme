@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AlgebraFx::AlgebraRxCocoa"
-               BuildableName = "AlgebraRxCocoa.framework"
-               BlueprintName = "AlgebraRxCocoa"
+               BlueprintIdentifier = "AlgebraFx::AlgebraRxSwift"
+               BuildableName = "AlgebraRxSwift.framework"
+               BlueprintName = "AlgebraRxSwift"
                ReferencedContainer = "container:AlgebraFx.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,9 +42,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AlgebraFx::AlgebraRxSwift"
-               BuildableName = "AlgebraRxSwift.framework"
-               BlueprintName = "AlgebraRxSwift"
+               BlueprintIdentifier = "AlgebraFx::AlgebraRxCocoa"
+               BuildableName = "AlgebraRxCocoa.framework"
+               BlueprintName = "AlgebraRxCocoa"
                ReferencedContainer = "container:AlgebraFx.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -56,16 +56,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AlgebraFx::AlgebraRxSwiftTests"
-               BuildableName = "AlgebraRxSwiftTests.xctest"
-               BlueprintName = "AlgebraRxSwiftTests"
-               ReferencedContainer = "container:AlgebraFx.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
@@ -86,6 +76,16 @@
                ReferencedContainer = "container:AlgebraFx.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AlgebraFx::AlgebraRxSwiftTests"
+               BuildableName = "AlgebraRxSwiftTests.xctest"
+               BlueprintName = "AlgebraRxSwiftTests"
+               ReferencedContainer = "container:AlgebraFx.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>
@@ -103,9 +103,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AlgebraFx::AlgebraRxCocoa"
-            BuildableName = "AlgebraRxCocoa.framework"
-            BlueprintName = "AlgebraRxCocoa"
+            BlueprintIdentifier = "AlgebraFx::AlgebraRxSwift"
+            BuildableName = "AlgebraRxSwift.framework"
+            BlueprintName = "AlgebraRxSwift"
             ReferencedContainer = "container:AlgebraFx.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
