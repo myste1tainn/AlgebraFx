@@ -13,6 +13,6 @@ import SwiftExpansion
 import RxSwiftExpansion
 import RxSwift
 
-public func ***<T>(left: Observable<T>, right: Observable<T>) -> Observable<T> {
-  return Observable.merge([left, right])
+public func ***<T>(left: Single<T>, right: Single<T>) -> Single<T> {
+  return Single.merge([left, right])
 }

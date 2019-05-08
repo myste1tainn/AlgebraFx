@@ -13,12 +13,12 @@ import SwiftExpansion
 import RxSwiftExpansion
 import RxSwift
 
-extension ObservableType {
-  public static func >--<R: ObservableType>(left: Self, right: R) -> Observable<R.E> {
-    return left.flatMapLatest { _ in right.asObservable() }
+extension Single {
+  public static func >--<R: Single>(left: Self, right: R) -> Single<R.E> {
+    return left.flatMapLatest { _ in right.asSingle() }
   }
   
-  public static func >--<R>(left: Self, right: @escaping (E) -> Observable<R>) -> Observable<R> {
+  public static func >--<R>(left: Self, right: @escaping (E) -> Single<R>) -> Single<R> {
     return left.flatMapLatest { right($0) }
   }
 }

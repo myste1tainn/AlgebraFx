@@ -13,8 +13,8 @@ import SwiftExpansion
 import RxSwiftExpansion
 import RxSwift
 
-extension ObservableType {
-  public static func |>>(left: E, right: Self) -> Observable<E> {
+extension Single {
+  public static func |>>(left: E, right: Self) -> Single<E> {
     return right.startWith(left)
   }
 }

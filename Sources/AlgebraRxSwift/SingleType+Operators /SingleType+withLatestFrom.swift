@@ -14,24 +14,24 @@ import SwiftExpansion
 import RxSwiftExpansion
 import RxSwift
 
-extension ObservableType {
-  public static func ||&<R: ObservableType>(left: Self, right: R) -> Observable<R.E> {
+extension Single {
+  public static func ||&<R: Single>(left: Self, right: R) -> Single<R.E> {
     return left.withLatestFrom(right)
   }
   
-  public static func |&&<R: ObservableType>(left: Self, right: R) -> Observable<(E, R.E)> {
+  public static func |&&<R: Single>(left: Self, right: R) -> Single<(E, R.E)> {
     return left.withLatestFrom(right) { ($0, $1) }
   }
   
-  public static func |&&<A, B, R: ObservableType>(left: Self, right: R) -> Observable<(A, B, R.E)> where E == (A, B) {
+  public static func |&&<A, B, R: Single>(left: Self, right: R) -> Single<(A, B, R.E)> where E == (A, B) {
     return left.withLatestFrom(right) { ($0.0, $0.1, $1) }
   }
   
-  public static func |&&<A, B, C, R: ObservableType>(left: Self, right: R) -> Observable<(A, B, C, R.E)> where E == (A, B, C) {
+  public static func |&&<A, B, C, R: Single>(left: Self, right: R) -> Single<(A, B, C, R.E)> where E == (A, B, C) {
     return left.withLatestFrom(right) { ($0.0, $0.1, $0.2, $1) }
   }
   
-  public static func |&&<A, B, C, D, R: ObservableType>(left: Self, right: R) -> Observable<(A, B, C, D, R.E)> where E == (A, B, C, D) {
+  public static func |&&<A, B, C, D, R: Single>(left: Self, right: R) -> Single<(A, B, C, D, R.E)> where E == (A, B, C, D) {
     return left.withLatestFrom(right) { ($0.0, $0.1, $0.2, $0.3, $1) }
   }
 }

@@ -10,7 +10,7 @@ import AlgebraFx
 import Foundation
 import RxSwift
 
-public prefix func ∑<T>(this: [Observable<T>]) -> Observable<T> {
-  return this.reduce(Observable.empty()) { $0.concat($1) }
+public prefix func ∑<T>(this: [Single<T>]) -> Single<T> {
+  return this.reduce(Single.empty()) { $0.concat($1) }
 }
 

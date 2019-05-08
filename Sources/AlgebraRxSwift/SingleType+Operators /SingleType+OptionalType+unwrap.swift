@@ -12,8 +12,8 @@ import SwiftExpansion
 import RxSwiftExpansion
 import RxSwift
 
-extension ObservableType where E: OptionalType {
-  public static postfix func ~~!(this: Self) -> Observable<E.Wrapped> {
+extension Single where E: OptionalType {
+  public static postfix func ~~!(this: Self) -> Single<E.Wrapped> {
     return this.unwrap()
   }
 }

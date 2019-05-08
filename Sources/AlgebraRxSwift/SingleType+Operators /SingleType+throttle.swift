@@ -13,12 +13,12 @@ import SwiftExpansion
 import RxSwiftExpansion
 import RxSwift
 
-extension ObservableType {
-  public static func /--(left: Self, right: RxTimeInterval) -> Observable<E> {
+extension Single {
+  public static func /--(left: Self, right: RxTimeInterval) -> Single<E> {
     return left.throttle(right, scheduler: ConcurrentDispatchQueueScheduler(qos: .userInteractive))
   }
   
-  public static func /--(left: Self, right: (RxTimeInterval, SchedulerType)) -> Observable<E> {
+  public static func /--(left: Self, right: (RxTimeInterval, SchedulerType)) -> Single<E> {
     return left.throttle(right.0, scheduler: right.1)
   }
 }

@@ -13,14 +13,14 @@ import SwiftExpansion
 import RxSwiftExpansion
 import RxSwift
 
-extension ObservableType where E: Hashable {
-  public static prefix func ==(this: Self) -> Observable<E> {
+extension Single where E: Hashable {
+  public static prefix func ==(this: Self) -> Single<E> {
     return this.distinctUntilChanged()
   }
 }
 
-extension ObservableType where E: Equatable {
-  public static prefix func ==(this: Self) -> Observable<E> {
+extension Single where E: Equatable {
+  public static prefix func ==(this: Self) -> Single<E> {
     return this.distinctUntilChanged()
   }
 }

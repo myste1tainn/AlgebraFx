@@ -13,8 +13,8 @@ import SwiftExpansion
 import RxSwiftExpansion
 import RxSwift
 
-extension ObservableType {
-  public static func +>>(left: Self, right: @escaping (E) -> Void) -> Observable<E> {
+extension Single {
+  public static func +>>(left: Self, right: @escaping (E) -> Void) -> Single<E> {
     return left.do(onNext: right)
   }
 }
