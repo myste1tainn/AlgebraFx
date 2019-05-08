@@ -1,12 +1,12 @@
 use_frameworks!
 
-target 'RxAlgebra_Example' do
-  pod 'RxAlgebra', :path => '../'
+target 'AlgebraFx_Example' do
+  pod 'AlgebraFx/RxCocoa', :path => '../'
 
-  target 'RxAlgebra_Tests' do
+  target 'AlgebraFx_Tests' do
     inherit! :search_paths
 
-    pod 'Quick', '~> 1.2.0'
-    pod 'Nimble', '~> 7.0.2'
+    pod 'Quick', '~> 1.2'
+    pod 'Nimble', '~> 7.0'
   end
 end

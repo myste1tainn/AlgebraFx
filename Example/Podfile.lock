@@ -1,27 +1,51 @@
 PODS:
-  - Nimble (7.0.3)
-  - Quick (1.2.0)
-  - RxAlgebra (0.1.0)
+  - AlgebraFx/RxCocoa (0.1.0):
+    - RxCocoa (~> 4.3.0)
+    - RxSwift (~> 4.3.0)
+    - RxSwiftExpansion (~> 0.1.0)
+    - SwiftExpansion (~> 0.1.0)
+  - Nimble (7.3.4)
+  - Quick (1.3.4)
+  - RxCocoa (4.3.1):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.3.1)
+  - RxSwiftExpansion (0.1.0):
+    - RxSwift (~> 4.3.0)
+    - RxSwiftExpansion/RxCocoa (= 0.1.0)
+    - SwiftExpansion (~> 0.1.0)
+  - RxSwiftExpansion/RxCocoa (0.1.0):
+    - RxCocoa (~> 4.3.0)
+    - RxSwift (~> 4.3.0)
+    - SwiftExpansion (~> 0.1.0)
+  - SwiftExpansion (0.1.0)
 
 DEPENDENCIES:
-  - Nimble (~> 7.0.2)
-  - Quick (~> 1.2.0)
-  - RxAlgebra (from `../`)
+  - AlgebraFx/RxCocoa (from `../`)
+  - Nimble (~> 7.0)
+  - Quick (~> 1.2)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Nimble
     - Quick
+    - RxCocoa
+    - RxSwift
+    - RxSwiftExpansion
+    - SwiftExpansion
 
 EXTERNAL SOURCES:
-  RxAlgebra:
+  AlgebraFx:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
-  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  RxAlgebra: e26c742cead662cf406cc5605541d98ba6f4501a
+  AlgebraFx: eead5ddde7e7374a9ae27c9938e88f43f2b544c2
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Quick: f4f7f063c524394c73ed93ac70983c609805d481
+  RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
+  RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
+  RxSwiftExpansion: e496cad6ed5240cfd815f32b014fe1fee042d576
+  SwiftExpansion: 9d50ba632895109e2b29fb77363e139e98be7022
 
-PODFILE CHECKSUM: 77932ac4762f348ed03d5ce513e588562747d525
+PODFILE CHECKSUM: 0a529de801a0e2039dc4ebf60f252018af1629d3
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1
