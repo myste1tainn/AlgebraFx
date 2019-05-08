@@ -42,6 +42,7 @@
 		2549984451491809A52D228C /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499E902464C2E9A0954FAA /* GlobalFunctions.swift */; };
 		2549986EC77AB8A086183AB4 /* DriverType+throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499CC85C13A6EE0CE673EE /* DriverType+throttle.swift */; };
 		254998ADCBD6C0923B2401FD /* ObservableType+combineLatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254999D86429DC16063ABDBE /* ObservableType+combineLatest.swift */; };
+		25499917D6C0F46C29F51C29 /* DriverType+Piping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499CD36BB14580C75430ED /* DriverType+Piping.swift */; };
 		2549993376889626F743DD6F /* DriverType+map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2549924D9D394BC356F20330 /* DriverType+map.swift */; };
 		254999BA0142A449F6740966 /* DriverType+debounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254994D7482AFB1593064EB9 /* DriverType+debounce.swift */; };
 		254999DF15AC3E1FA6DB7857 /* ObservableType+take.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254995263D9C840F4FDEF229 /* ObservableType+take.swift */; };
@@ -447,6 +448,7 @@
 		25499C1D4B56DF8D1E60A6FD /* ObservableType+OptionalType+unwrap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+OptionalType+unwrap.swift"; sourceTree = "<group>"; };
 		25499C4CDBA9C5736E2A55D6 /* ObservableType+throttle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+throttle.swift"; sourceTree = "<group>"; };
 		25499CC85C13A6EE0CE673EE /* DriverType+throttle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+throttle.swift"; sourceTree = "<group>"; };
+		25499CD36BB14580C75430ED /* DriverType+Piping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+Piping.swift"; sourceTree = "<group>"; };
 		25499CD7076DE9AFA84632C0 /* DriverType+flatMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+flatMap.swift"; sourceTree = "<group>"; };
 		25499D1D48C7F2F18B078CE7 /* DriverType+distinctUntilChanged.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DriverType+distinctUntilChanged.swift"; sourceTree = "<group>"; };
 		25499D26D5A96694300AD9B0 /* ObservableType+map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+map.swift"; sourceTree = "<group>"; };
@@ -1511,6 +1513,7 @@
 				OBJ_15 /* ObservableType+BreakdownFunctions.swift */,
 				OBJ_16 /* ObservableType+Piping.swift */,
 				254995EF93B496ADB722D8DF /* DriverType+Operators */,
+				25499CD36BB14580C75430ED /* DriverType+Piping.swift */,
 			);
 			name = AlgebraRxCocoa;
 			path = Sources/AlgebraRxCocoa;
@@ -1910,6 +1913,7 @@
 				25499FFB6386C6ABC942DF35 /* DriverType+withLatestFrom.swift in Sources */,
 				2549968F03D9AC764C898A6E /* DriverType+OptionalType+unwrap.swift in Sources */,
 				2549968EA7A6D4565406FCB7 /* DriverType+distinctUntilChanged.swift in Sources */,
+				25499917D6C0F46C29F51C29 /* DriverType+Piping.swift in Sources */,
 			);
 		};
 		OBJ_439 /* Sources */ = {

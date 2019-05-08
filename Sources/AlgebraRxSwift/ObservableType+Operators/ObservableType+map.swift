@@ -6,6 +6,7 @@
 #if !(TARGET_OS_SIMUATOR || TARGET_OS_iOS)
 // If the target is OS simulator or iOS then it is built with cocoapods
 // and is using subspecs where module dependencies is not required.
+
 import AlgebraFx
 #endif
 import Foundation
@@ -24,5 +25,9 @@ extension ObservableType {
   
   public static func >>><R>(left: Self, right: @escaping (E) -> R) -> Observable<R> {
     return left.map { l -> R in right(l) }
+  }
+  
+  public static func >>><R>(left: Self, right: KeyPath<E, R>) -> Observable<R> {
+    return left.map { l -> R in l[keyPath: right] }
   }
 }

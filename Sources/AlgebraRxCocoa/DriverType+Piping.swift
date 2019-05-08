@@ -12,7 +12,7 @@ import RxCocoaExpansion
 import RxSwift
 import RxCocoa
 
-extension ObservableType {
+extension DriverType {
   public static func |>(left: Self, right: ActivityIndicator) -> Observable<E> {
     return left.trackActivity(right)
   }
@@ -25,5 +25,4 @@ extension ObservableType {
     return left.trackActivity(right.0)
                .trackError(right.1)
   }
-  
 }

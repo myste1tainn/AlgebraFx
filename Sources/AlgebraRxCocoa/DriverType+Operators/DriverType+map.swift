@@ -26,4 +26,8 @@ extension DriverType {
   public static func >>><R>(left: Self, right: @escaping (E) -> R) -> Driver<R> {
     return left.map { l -> R in right(l) }
   }
+  
+  public static func >>><R>(left: Self, right: KeyPath<E, R>) -> Driver<R> {
+    return left.map { l -> R in l[keyPath: right] }
+  }
 }

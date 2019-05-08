@@ -33,8 +33,11 @@ infix operator +!>: AdditionPrecedence
 /// do onCompleted
 infix operator ++>: AdditionPrecedence
 
-/// Tracking extraction || take || dispose
+/// take || dispose
 infix operator |: AdditionPrecedence
+
+/// Tracking extraction
+infix operator |>: AdditionPrecedence
 
 // MARK: - Binding
 
@@ -60,7 +63,10 @@ prefix operator ==
 /// startWith
 infix operator |>>: AdditionPrecedence
 
-/// withLatestFrom
+/// withLatestFrom (right)
+infix operator ||&: AdditionPrecedence
+
+/// withLatestFrom (left, right)
 infix operator |&&: AdditionPrecedence
 
 /// combineLatest
