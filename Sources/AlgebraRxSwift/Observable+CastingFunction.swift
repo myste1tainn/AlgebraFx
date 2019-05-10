@@ -10,18 +10,18 @@ import AlgebraFx
 import Foundation
 import RxSwift
 
-func single<T>(_ obs: Observable<T>) -> Single<T> {
+public func single<T>(_ obs: Observable<T>) -> Single<T> {
   return obs.asSingle()
 }
 
-func observable<T>(_ single: Single<T>) -> Observable<T> {
+public func observable<T>(_ single: Single<T>) -> Observable<T> {
   return single.asObservable()
 }
 
-func --><T>(left: Single<T>, right: (Single<T>) -> Observable<T>) -> Observable<T> {
+public func --><T>(left: Single<T>, right: (Single<T>) -> Observable<T>) -> Observable<T> {
   return right(left)
 }
 
-func --><T>(left: Observable<T>, right: (Observable<T>) -> Single<T>) -> Single<T> {
+public func --><T>(left: Observable<T>, right: (Observable<T>) -> Single<T>) -> Single<T> {
   return right(left)
 }
